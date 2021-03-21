@@ -1,0 +1,881 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Rubik";
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+background-image: url(imagenes/ondas.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+background-repeat: no-repeat;
+height: 810px;
+background-position: bottom center;
+background-size: contain;
+}
+
+.menu {
+position: fixed;
+width: 100%;
+background-color: #fff;
+top: 0;
+box-shadow: 1px 1px 8px #ccc;
+z-index: 1;
+
+}
+
+.menu .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9
+
+
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo  {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header .contenedor-inicio {
+  display:flex;
+  justify-content: center;
+  margin: 9vh 0;
+}
+
+header .titular, header .imagen {
+  width: 45%;
+}
+
+header .titular h1 {
+  font-family: Rubik;
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 2px 2px 10px #000000;
+}
+
+header .titular p {
+  color: #fff;
+  list-style: 30px;
+}
+
+header .imagen img {
+    width: 100%;
+}
+
+.boton {
+  background: #253547;
+  color: #fff;
+  text-decoration:none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.dominios {
+  display: flex;
+}
+
+.dominios li {
+list-style: none;
+margin: 0 20px;
+}
+
+span.punto {
+  color: #1776ff;
+  font-size: 24px;
+}
+
+span.dominio {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+span.anio {
+  color: #999;
+  font-size: 14px;
+  }
+
+  /*seccion services*/
+
+  #services {
+    padding-top: 20px;
+  }
+
+#services .contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+#services .titular {
+  width: 49%;
+}
+
+#services .service {
+  width: 25%;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 28px 48px 18px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+}
+
+#services h2, #pricing h2 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Rubik";
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+#services h3, #pricing h3 {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+#services .boton {
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+
+.service h4 {
+  font-size: 23px;
+  font-family: "rubik";
+  font-weight: normal;
+}
+
+.service p {
+  color: #787878;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.service a {
+  color: #2970fa;
+  text-decoration: none;
+  font-family: "rubik";
+  font-size: 13px;
+}
+
+.contenedor-services-2 {
+  margin-top: 60px;
+}
+
+.contenedor-services-2 #dos {
+  position:relative;
+  top: -200px;
+}
+
+#uno {
+  margin-left: 125px;
+}
+
+/*STARTS SECTION PRICING*/
+
+#pricing {
+    padding-top: 90px;
+}
+
+#pricing h2, #pricing h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.contenedor-precios {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#pricing .tabla {
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 28px 48px 18px rgba(0,0,0,0.1);
+  padding: 20px 60px;
+  position: relative;
+
+}
+
+#pricing hr {
+  position: absolute;
+  top: 145px;
+  left: 0;
+  width: 100%;
+  border-color: #2423230d;
+}
+
+#pricing ul {
+  padding: 0;
+}
+
+#pricing .tabla li:nth-child(1) {
+  color: #ff8f00;
+  list-style: none;
+  margin-left: -21px;
+  margin-bottom: 20px;
+}
+
+#pricing .tabla .dolar {
+position: absolute;
+color: #999;
+
+}
+
+#pricing .tabla .numero {
+font-size: 50px;
+font-weight: bold;
+margin-left: 14px;
+
+}
+
+#pricing .tabla li:nth-child(2) {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+#pricing .item {
+  color: #ff8f00;
+  margin-bottom: 27px;
+}
+
+#pricing #one a {
+  color: #ff8f00;
+  background: rgba(255, 143, 0, 0.1);
+}
+
+#pricing #two li:nth-child(1) {
+  color: #296FFA;
+}
+
+#pricing #two .item {
+  color: #296FFA;
+}
+
+#pricing #two a {
+  background: #296FFA;
+  color: #fff;
+}
+
+#pricing #three li:nth-child(1) {
+  color: #2ACF8D;
+}
+
+#pricing #three .item {
+color: #2ACF8D;
+}
+
+#pricing #three a {
+  background: rgba(42, 207, 141, 0.1);
+  color: #2ACF8D;
+}
+
+#pricing .item span {
+  color: #666;
+}
+
+#pricing .hidden {
+  color: #ccc;
+}
+
+/*Starts section features*/
+
+#features .contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  max-width: 1100px;
+}
+
+
+
+#features .titular {
+  width: 40%;
+  margin-right: 20px;
+}
+
+#features .imagen {
+  width: 45%;
+}
+
+#features .imagen img {
+  width: 100%;
+}
+
+#features h2 {
+  font-size: 14px;
+    font-weight: 500;
+    font-family: "Rubik";
+    color: #ff8f00;
+    letter-spacing: 1px;
+}
+
+#features h3 {
+  font-size: 38px;
+font-weight: 500;
+}
+
+.contenedor-features-2 {
+display: flex;
+flex-direction: column;
+border-top: 1px solid rgba(204, 204, 204, 0.42);
+padding-top: 40px;
+}
+
+.features-1, .features-2 {
+  display: flex;
+  display: wrap;
+}
+
+.feature {
+  width: 40%;
+  margin: auto;
+}
+
+.feature ul {
+  display: flex;
+}
+
+.feature li {
+list-style: none;
+}
+
+.feature li:nth-child(2) {
+  line-height: 30px;
+  margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+/*Starts File Section*/
+
+#file {
+  padding-top: 100px;
+}
+
+#file .contenedor {
+display: flex;
+justify-content: center;
+
+}
+
+#file h2 {
+font-size: 15px;
+color: #ff8f00;
+margin: 0;
+}
+
+#file h3 {
+font-size: 35px;
+margin: 0;
+}
+
+#file .titular {
+width: 42%;
+margin-right: 30px;
+}
+
+#file .imagen {
+  width: 42%;
+}
+
+#file .imagen img {
+  width: 100%;
+}
+
+#file .iconos {
+margin-top: 30px;
+
+}
+
+#file .icono {
+margin-right: 20px;
+
+}
+
+#file .iconos p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+#file .item {
+  display: flex;
+}
+
+#file h4 {
+padding: 0;
+}
+
+#file .iconos h4 {
+margin: 0;
+}
+
+/*Starts section Expert*/
+
+#expert {
+    padding: 196px 5px;
+    background-image: url(imagenes/expert5.png),linear-gradient(150deg,#ffba61 0%,#ffe970 100%);
+    background-size: 80% 100%;
+    background-position: center top;
+    text-align: center;
+
+}
+
+#expert h2 {
+    font-size: 30px;
+    width: 100%;
+      padding-top: 40px;
+      color: #000;
+}
+
+#expert p {
+    width: 100%;
+
+}
+
+
+/*starts section easy*/
+
+#easy {
+padding-top: 90px;
+}
+
+#easy .contenedor {
+  display: flex;
+}
+
+#easy .imagen {
+width: 40%;
+margin-right: 20px;
+}
+
+#easy .titular {
+  width: 40%;
+}
+
+#easy img {
+  width: 100%;
+}
+
+#easy ul {
+  display: flex;
+  padding: 0;
+  margin-bottom: 37px;
+  margin-top: 37px;
+}
+
+#easy li {
+  list-style: none;
+}
+
+#easy i {
+  background-color: #ffba61;
+  border-radius: 50%;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+
+}
+
+#easy p {
+  line-height: 25px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+#easy ul :nth-child(1) {
+  margin-right: 30px;
+}
+
+#easy .boton {
+  margin-top: 0;
+}
+
+/*Starts section Testimonials*/
+
+#testimonials {
+  padding-top: 90px;
+  color: #666;
+}
+
+#testimonials h2, h3 {
+  text-align: center;
+}
+
+.contenedors-testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial {
+  width: 25%;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 28px 48px 18px rgba(0,0,0,0.1);
+  text-align: center;
+  background-image: url(imagenes/testimonial-back.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+}
+
+.testimonial .nombre {
+  font-weight: bold;
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    font-weight: 100;
+}
+
+/*Starts Satistaction Section*/
+
+#satisfaction {
+  padding-top: 90px;
+  padding-bottom: 156px;
+}
+
+#satisfaction h3 {
+  text-align: center;
+  font-size: 35px;
+}
+
+
+
+.contenedor-tarjetas {
+  display: flex;
+}
+
+.tarjeta {
+background-image: url(imagenes/tarjeta1.png), linear-gradient(
+237deg, #46b3ff 0%, #0752fe 100%);
+background-size: cover;
+background-position: bottom left;
+border-radius: 24px;
+width: 40%;
+margin: 0 35px;
+padding: 27px 40px 26px 33px;
+}
+
+.tarjeta-dos {
+  background-image: url(imagenes/tarjeta2.png), linear-gradient(
+150deg, #ffba61 0%, #ffdc71 100%);
+}
+
+
+/*treinta*/
+
+#treinta {
+  background-image: url(imagenes/30.png), linear-gradient(
+    237deg
+    , #46b3ff 0%, #0752fe 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 310px 0 155px 0;
+    text-align: center;
+}
+
+#treinta h2 {
+  font-size: 52px;
+  font-family: 'Rubik';
+  color: #fff;
+  text-shadow: 1px 2px 13px #61605d;
+  width: 50%;
+  margin: auto;
+}
+
+#treinta p {
+  font-size: 18px;
+  font-family: 'Rubik';
+  color: #fff;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+  /*footer*/
+
+footer {
+background: #161616;
+color: #666;
+  }
+
+footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+}
+
+footer .redes li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer i {
+  font-size: 27px;
+}
+
+
+
+  @media screen and (max-width: 480px) {
+
+  nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #232220;
+  width: 100%;
+  display: none;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+    
+  }
+  header .contenedor-inicio {
+    flex-direction: column;
+    margin: 13vh 0;
+  }
+
+  header .titular, header .imagen {
+    width: 100%;
+  }
+  header .titular h1 {
+      font-size: 40px;
+  }
+
+  header .logo {
+    margin-left: -5px;
+  }
+
+  .dominios {
+    flex-direction: column;
+  }
+  .dominios li {
+    margin: 8px 20px;
+  }
+
+  #services .contenedor {
+    flex-direction: column;
+}
+
+#services .titular {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+#services h3, #pricing h3 {
+    font-size: 24px;
+  }
+
+#services #uno {
+    margin-left: 0;
+    width: 82%;
+}
+
+#services .service {
+    width: 82%;
+
+  }
+
+.contenedor-services-2 {
+    margin-top: 30px;
+}
+
+  .contenedor-services-2 #dos {
+    top: 30px;
+  }
+
+.contenedor-services-2 #cuatro {
+  margin-top: 60px;
+}
+
+.contenedor-precios {
+  flex-direction: column;
+}
+
+#pricing .tabla {
+    margin-bottom: 30px;
+}
+
+#features .contenedor {
+    margin-top: 62px;
+    flex-direction: column;
+}
+
+#features .titular, #features .imagen {
+    width: 100%;
+}
+
+#features h3 {
+font-size: 28px;
+text-align: left;
+}
+
+.features-1, .features-2 {
+  flex-direction: column;
+}
+
+.feature {
+    width: 100%;
+}
+
+.feature ul {
+    padding-left: 0;
+}
+
+#file {
+    padding-top: 50px;
+}
+
+#file .contenedor {
+    flex-direction: column;
+}
+
+#file .titular {
+    width: 100%;
+}
+#file .imagen {
+    width: 100%;
+}
+
+#file h3 {
+    font-size: 28px;
+    text-align: left;
+}
+
+#expert {
+  background-size: 94% 103%;
+}
+
+#easy {
+    padding-top: 30px;
+}
+#easy .contenedor {
+  flex-direction: column;
+}
+
+#easy .imagen, #easy .titular {
+    width: 100%;
+
+}
+
+#easy ul {
+  margin-bottom: 20px;
+}
+
+#easy ul :nth-child(1) {
+    margin-right: 12px;
+}
+
+#testimonials {
+    padding-top: 30px;
+}
+
+.contenedors-testimonials {
+  flex-direction: column;
+}
+
+.testimonial {
+  width: 88%;
+  margin-bottom: 30px;
+}
+
+#satisfaction {
+    padding-top: 20px;
+
+}
+.contenedor-tarjetas {
+  flex-direction: column;
+}
+
+.tarjeta {
+    width: 79%;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 45px 10px 28px;
+}
+
+.boton {
+  margin-top: 5px;
+}
+
+#treinta {
+  padding: 121px 0 106px 0;
+}
+
+#treinta h2 {
+    font-size: 38px;
+    width: 80%;
+}
+
+#treinta p {
+    font-size: 16px;
+    width: 80%;
+}
+
+#treinta .boton {
+  margin-top: 20px;
+}
+
+footer .contenedor {
+  flex-direction: column;
+  align-items: flex-end;
+}
+}
